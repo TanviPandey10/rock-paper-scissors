@@ -41,7 +41,7 @@ Scores are updated instantly after each round.
 
 Clone the repository
 
-git clone https://github.com/your-username/rock-paper-scissors.git
+git clone https://github.com/TanviPandey10/rock-paper-scissors.git
 
 
 Navigate into the project folder
