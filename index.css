@@ -1,0 +1,48 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+h1 {
+  background: #081b31;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+.choice {
+  font-size: 6rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.choice:hover {
+  transform: scale(1.2);
+}
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2.5rem;
+  font-size: 2rem;
+}
+#playerScore,
+#computerScore {
+  font-size: 3rem;
+}
+.message {
+  margin-top: 3rem;
+}
+#status {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #081b31;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
